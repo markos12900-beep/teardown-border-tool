@@ -1,0 +1,42 @@
+Border Tool for Teardown - Third-party notices
+==============================================
+
+Border Tool itself is released under the MIT licence (see LICENSE).
+
+
+1. Compiler runtime
+-------------------
+
+BorderTool.exe was compiled with the Zig toolchain (clang) for
+x86_64-windows-gnu. It contains parts of these runtime libraries:
+
+  LLVM libc++ / libc++abi / libunwind
+    https://github.com/llvm/llvm-project
+    Apache License v2.0 with LLVM Exceptions
+    https://llvm.org/LICENSE.txt
+
+  mingw-w64 runtime
+    https://www.mingw-w64.org/
+    Mostly public domain; some parts under the Zope Public License and
+    BSD-style licences, see
+    https://sourceforge.net/p/mingw-w64/mingw-w64/ci/master/tree/COPYING.MinGW-w64-runtime/COPYING.MinGW-w64-runtime.txt
+
+
+2. Teardown
+-----------
+
+Teardown, its game files, models, textures and all other assets are the
+property of Tuxedo Labs. None of them are included in this release or in
+the Steam Workshop item. The tool uses the game's own rope-tool model
+(prefab/tool/wire.xml) from YOUR Teardown installation; it is never copied.
+
+The preview image is made of screenshots of Teardown.
+
+Border Tool is an unofficial fan project. It is not affiliated with,
+endorsed by or supported by Tuxedo Labs.
+
+
+3. Other names
+--------------
+
+Steam is a trademark of Valve Corporation.
